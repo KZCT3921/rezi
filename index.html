@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レジアプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🔄 ローディング画面 -->
+    <div id="loading">
+        <div class="loader"></div>
+        <p>読み込み中...</p>
+    </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レジアプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 商品リスト（左側） -->
+        <div class="product-section">
+            <h2>　　　　　　　　　　　カット</h2>
+            <div class="product" data-name="カット" data-price="2200">カット ¥2200</div>
+            <div class="product" data-name="カラー" data-price="3300">カラー ¥3300</div>
+            <div class="product" data-name="パーマ" data-price="5500">パーマ ¥5500</div>
+            <div class="product" data-name="セット" data-price="1100">セット ¥1100</div>
+            <h2>　　　　　　　　　　　　シャンプー</h2>
+            <div class="product" data-name="シャンプー" data-price="500">シャンプー ¥500</div>
+            <div class="product" data-name="トリートメント" data-price="700">トリートメント ¥700</div>
+            
+        </div>
+
+        <!-- 注文リスト（右側） -->
+        <div class="cart-section">
+            <h2>　　　　　　　　　　　注文リスト</h2>
+            <div id="cart"></div>
+            <div class="total">
+            　合計: <strong id="total-price">¥0</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- 下部のボタン -->
+    <div class="footer">
+        <button class="btn secondary" id="reset">注文全削除</button>
+        <button class="btn receipt" id="">領収証発行</button>
+        <button class="btn primary" id="pay">支払いへ進む</button>
+    </div>
+
+    <script src="script.js"></script>
+    <img src="バーストリミット.PNG" alt="商品画像" class="top-left">
+
+
+
+</body>
+</html>
+
+
